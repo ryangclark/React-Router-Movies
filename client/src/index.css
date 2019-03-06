@@ -10,10 +10,27 @@ body {
   border: 0;
   box-shadow: 0 -1px 0 #e0e0e0, 0 0 2px rgba(0, 0, 0, 0.12),
     0 2px 4px rgba(0, 0, 0, 0.24);
-  padding: 1rem;
+  padding: 2rem;
   cursor: pointer;
   position: relative;
-  margin: 1rem auto;
+  margin: 1rem 0.5rem;
+  width: 20rem;
+}
+
+.movie-card.movie-detail-page {
+  margin: 1rem 0;
+  width: auto;
+}
+
+.movie-card > a > h2 {
+  margin-top: 0;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2rem;
 }
 
 .movie-director {
